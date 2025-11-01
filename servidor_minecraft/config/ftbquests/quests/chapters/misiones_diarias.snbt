@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misiones_diarias"
+	group: ""
+	id: "58FB35FBF5F3FF0F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5F9DA25F5F2E122D"
+			tasks: [
+				{
+					id: "1795F67901899A3E"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F61EF23DBF031C3"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17CDD7EEC7DBDD77"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23E7B496683CF759"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DF9A284E6B7B0E2"
+					item: {
+						Count: 1
+						id: "spartanshields:diamond_tower_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "226F2CF2CBBA8EEA"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Finalizado"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3F7F32A75AAF1514"
+			rewards: [
+				{
+					id: "2547E2B88ABD83EA"
+					item: "dedsafio3:dedita_mision"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "79B49D65A4163B41"
+					item: "dedsafio3:dedita"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "12FF79C5AEBE199F"
+					item: "dedsafio3:deditacasino"
+					type: "item"
+				}
+			]
+			subtitle: "Matar un dragón"
+			tasks: [
+				{
+					id: "75F741BFD00D38D8"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CD3D4F45CB9F245"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77040BA797AD79D8"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35CE77C2B7EED75A"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "iceandfire:fire_dragon"
+					icon: "iceandfire:fire_dragon_heart"
+					id: "4E0AF831936F280A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Full Netherite"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "07A29E5C707D51DA"
+			rewards: [
+				{
+					id: "12A99463361865E6"
+					item: "dedsafio3:dedita_mision"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "55FA6FB882602F07"
+					item: "dedsafio3:dedita"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "7578C6265032E0BE"
+					item: "dedsafio3:deditacasino"
+					type: "item"
+				}
+			]
+			subtitle: "Matar un dragón"
+			tasks: [
+				{
+					id: "22F32C8CCCD11A84"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CE288ECCFDAE327"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09A9C84D958B83E7"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "766C0355452065B1"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "iceandfire:lightning_dragon"
+					icon: "iceandfire:lightning_dragon_heart"
+					id: "0AC0F2BBA9C6DA97"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Full Netherite"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "1BD2A3B8FF4DAF39"
+			rewards: [
+				{
+					id: "1313C2B3B4E85029"
+					item: "dedsafio3:dedita_mision"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "088D645BE19A0891"
+					item: "dedsafio3:dedita"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "1D2B4442A5200F17"
+					item: "dedsafio3:deditacasino"
+					type: "item"
+				}
+			]
+			subtitle: "Matar un dragón"
+			tasks: [
+				{
+					id: "65CB96784FC23EB9"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "327A4D5F49B53CF6"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C284A517C462F02"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FD6034B87B79203"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "iceandfire:ice_dragon"
+					icon: "iceandfire:ice_dragon_heart"
+					id: "7637D214874FDB1F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Full Netherite"
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	title: "Misiones Diarias"
+}

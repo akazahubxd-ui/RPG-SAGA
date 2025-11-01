@@ -1,0 +1,43 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.6,
+      0.8,
+      1.0
+    ],
+    "center": [
+      0.0,
+      -0.2,
+      -0.4
+    ]
+  },
+  "hit_sound": "epicfight:entity.hit.blade_rush_last",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "epicfight:biped/living/hold_spear",
+      "run": "epicfight:biped/living/run_spear",
+      "block": "epicfight:biped/skill/guard_spear",
+      "walk": "epicfight:biped/living/hold_greatsword"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "two_hand",
+    "cases": []
+  },
+  "combos": {
+    "two_hand": [
+      "epicfight:biped/combat/spear_twohand_auto1",
+      "epicfight:biped/skill/sweeping_edge",
+      "epicfight:biped/combat/tool_dash",
+      "epicfight:biped/combat/sword_auto4",
+      "epicfight:biped/combat/greatsword_dash",
+      "epicfight:biped/combat/uchigatana_sheath_airslash"
+    ]
+  },
+  "category": "spear",
+  "innate_skills": {
+    "two_hand": "epicfight:sweeping_edge"
+  }
+}

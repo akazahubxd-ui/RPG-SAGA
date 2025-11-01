@@ -1,0 +1,21 @@
+{
+  "collider": {
+    "number": 5,
+    "size": [
+      0.4,
+      0.4,
+      0.7
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.7
+    ]
+  },
+  "attributes": {
+    "two_hand": {
+      "impact": 1.1
+    }
+  },
+  "type": "epicfight:uchigatana"
+}

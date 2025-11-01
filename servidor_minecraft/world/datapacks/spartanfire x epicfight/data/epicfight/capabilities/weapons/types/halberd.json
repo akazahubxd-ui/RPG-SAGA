@@ -1,0 +1,42 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.6,
+      0.6,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.6
+    ]
+  },
+  "hit_sound": "epicfight:entity.hit.blade_rush_last",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "epicfight:biped/living/hold_spear",
+      "run": "epicfight:biped/living/run_spear",
+      "block": "epicfight:biped/skill/guard_spear",
+      "walk": "epicfight:enderman/walk"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "two_hand",
+    "cases": []
+  },
+  "combos": {
+    "two_hand": [
+      "epicfight:biped/combat/spear_twohand_auto1",
+      "epicfight:biped/combat/mob_spear_twohand1",
+      "epicfight:biped/combat/greatsword_dash",
+      "epicfight:biped/combat/spear_dash",
+      "epicfight:biped/combat/spear_twohand_airslash"
+    ]
+  },
+  "category": "greatsword",
+  "innate_skills": {
+    "two_hand": "epicfight:heartpiercer"
+  }
+}

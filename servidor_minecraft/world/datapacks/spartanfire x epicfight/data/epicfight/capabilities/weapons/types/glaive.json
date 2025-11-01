@@ -1,0 +1,35 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.6,
+      0.6,
+      1.2
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.6
+    ]
+  },
+  "hit_sound": "epicfight:entity.hit.blade",
+  "swing_sound": "epicfight:entity.weapon.whoosh_rod",
+  "styles": {
+    "default": "two_hand",
+    "cases": []
+  },
+  "combos": {
+    "two_hand": [
+      "epicfight:biped/combat/sword_auto3",
+      "epicfight:biped/combat/sword_auto4",
+      "epicfight:biped/combat/spear_twohand_auto1",
+      "epicfight:biped/combat/spear_twohand_auto2",
+      "epicfight:biped/combat/tachi_dash",
+      "epicfight:biped/combat/greatsword_airslash"
+    ]
+  },
+  "category": "spear",
+  "innate_skills": {
+    "two_hand": "epicfight:blade_rush"
+  }
+}

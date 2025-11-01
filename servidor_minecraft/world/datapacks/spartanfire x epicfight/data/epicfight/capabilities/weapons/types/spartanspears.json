@@ -1,0 +1,72 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.6,
+      0.6,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.8
+    ]
+  },
+  "hit_sound": "epicfight:entity.hit.blade_rush_last",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "epicfight:biped/living/hold_spear",
+      "run": "epicfight:biped/living/run_spear",
+      "block": "epicfight:biped/skill/guard_spear",
+      "walk": "epicfight:biped/living/walk_spear"
+    },
+    "one_hand": {
+      "idle": "epicfight:biped/living/hold_spear",
+      "run": "epicfight:biped/living/run_spear",
+      "walk": "epicfight:biped/living/walk_spear"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "shield"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh_rod",
+  "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "style": "one_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "shield"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "epicfight:biped/combat/spear_twohand_auto1",
+      "epicfight:biped/combat/dagger_auto3",
+      "epicfight:biped/combat/trident_auto1",
+      "epicfight:biped/combat/sword_auto4",
+      "epicfight:biped/combat/spear_dash",
+      "epicfight:biped/combat/spear_twohand_airslash"
+    ],
+    "one_hand": [
+      "epicfight:biped/combat/spear_onehand_auto",
+      "epicfight:biped/combat/sword_auto3",
+      "epicfight:biped/combat/sword_auto4",
+      "epicfight:biped/combat/spear_dash",
+      "epicfight:biped/combat/spear_onehand_airslash"
+    ]
+  },
+  "category": "spear",
+  "innate_skills": {
+    "two_hand": "epicfight:grasping_spire",
+    "one_hand": "epicfight:heartpiercer"
+  }
+}

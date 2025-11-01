@@ -1,0 +1,71 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.8
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.3
+    ]
+  },
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "epicfight:wither_skeleton/idle",
+      "block": "epicfight:biped/skill/guard_dualsword",
+      "walk": "epicfight:enderman/walk"
+    },
+    "one_hand": {
+      "idle": "epicfight:biped/living/hold_tachi",
+      "block": "epicfight:biped/skill/guard_longsword",
+      "walk": "epicfight:enderman/walk"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "dagger"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+    "two_hand": [
+      "epicfight:biped/skill/sharp_stab",
+      "epicfight:biped/combat/mob_dagger_onehand1",
+      "epicfight:biped/combat/mob_dagger_twohand1",
+      "epicfight:biped/combat/sword_dual_dash",
+      "epicfight:biped/combat/dagger_dual_airslash"
+    ],
+    "one_hand": [
+      "epicfight:biped/combat/dagger_auto1",
+      "epicfight:biped/combat/dagger_auto3",
+      "epicfight:biped/combat/longsword_dash",
+      "epicfight:biped/combat/sword_dash",
+      "epicfight:biped/combat/fist_airslash"
+    ]
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "dagger"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "dagger",
+  "innate_skills": {
+    "two_hand": "epicfight:eviscerate",
+    "one_hand": "epicfight:eviscerate"
+  },
+  "usable_in_offhand": true
+}
